@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script>
+			function goBack() {
+			    window.history.back()
+			}
+		</script>
+
+		<script>
+		function goForward() {
+		    window.history.forward()
+		}
+		</script>
+		
+
+
+	</head>
+	    <body>
+		<button onclick="myFunction()">Try it</button>
+
+		   <p id="demo"></p>
+
+			<script>
+
+			function myFunction() {
+			    var person = prompt("Please enter your name");
+			    if (person != null) {
+				document.getElementById("demo").innerHTML = person ;
+			    }
+
+			}
+			</script>
+
+			 <script>
+			 var names = [];
+			  for(var i = 0; i<=10; i++)
+			{
+			  names.push(person : i)
+			}
+			document.getElementById("demo").innerHtml = person[i];
+
+			</script>
+
+ <form action="">
+  <input type="checkbox" name="vehicle" value="Bike">stop further dialogs<br>
+
+ </form>
+
+<input type="button" value="Back" onclick="goBack()">
+<input type="button" value="Forward" onclick="goForward()">
+<input type="button" value="Refresh Page" onClick="window.location.reload()">
+
+
+</body>
+</html>
