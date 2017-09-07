@@ -1,26 +1,24 @@
+
 <!DOCTYPE html>
 <html>
-	<body>
+<head>
+  <meta charset="UTF-8">
+</head>
+   <body>
+     <button onclick="myFunction()">Try it</button>
+        <script>
+		var Arr = [5, 46, 2, 67];
 
-
-	<p id="demo"></p>
-
-	<button onclick="myFunction()">Try it</button>
-
-		<script>
-		var Arr = [5, 9, 1, 6, 8,];
-		var total =0;
 
 		function myFunction(){
+		var total =0;
 		for(var i =0; i < Arr.length; i++){
-		    total += Arr[i];
+		   total += Arr[i];
 		}
 		var avg = total/Arr.length;
 
 		alert(avg);
 		}
-
-		</script>
-	</body>
+      </script>
+   </body>
 </html>
-
